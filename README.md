@@ -1,8 +1,8 @@
 # Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization
- AIM:
+# AIM:
 To study about the different digital IC’s and to verify the truth table in Quartus for the basic logic gates using Verilog programming.
 
-Equipments Required:
+# Equipments Required:
 Hardware – PCs, Cyclone II , USB flasher
 Software – Quartus prime
 Theory
@@ -51,7 +51,7 @@ The 'Exclusive-NOR' gate circuit does the opposite to the EX-OR gate. It will gi
 
 Y= A⊕B
 
-# Procedure
+# Procedure:
 1.Create a New Project:
 
 Open Quartus and create a new project by selecting "File" > "New Project Wizard." Follow the wizard's instructions to set up your project, including specifying the project name, location, and target device (FPGA).
@@ -79,7 +79,7 @@ Click on "File" > "New" > "Verification/Debugging Files" > "University Program V
 # Program:
 /*
 Program to verify the truth table in quartus for the basic logic gates using Verilog programming.
-
+```
   module expone (a,b,y1,y2,y3,y4,y5,y6,y7);
   input a,b;
   output y1,y2,y3,y4,y5,y6,y7;
@@ -91,11 +91,18 @@ Program to verify the truth table in quartus for the basic logic gates using Ver
   nor(y6,a,b);
   xnor(y7,a,b);
   endmodule
+```
 */
-Logic symbol & Truthtable
-RTL realization
-Output:
-RTL
+# Logic symbol & Truthtable:
 
-Result:
+![lg1](https://github.com/HARININAGAPPAN/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/147473910/1498b048-b42b-4f17-b246-7370b48855d4)
+
+# RTL realization:
+![Screenshot 2023-12-11 154755](https://github.com/HARININAGAPPAN/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/147473910/82a3133c-0e41-4491-805a-ce3b14e4cd8c)
+
+# Timing diagram:
+
+![Screenshot 2023-12-11 155009](https://github.com/HARININAGAPPAN/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/147473910/35bf9004-23e0-4484-b176-e61736bd9af9)
+
+# Result:
 Thus the different digital IC’s are studied and the truth table for different logic gates are verified.
